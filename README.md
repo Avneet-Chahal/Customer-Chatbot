@@ -108,10 +108,6 @@ streamlit run app.py
 
 ---
 
-## 🌐 Live Demo
-https://customer-chatbot-01.streamlit.app
-
-
 ## 👨‍💻 Author
 
 **Avneet Chahal**
