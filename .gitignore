@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project history
+.history/
+
+# Logs
+*.log
+
+# Model files (optional - only if large)
+# Models/*.pkl
