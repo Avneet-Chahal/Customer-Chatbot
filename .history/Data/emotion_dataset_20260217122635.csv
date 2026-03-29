@@ -1,0 +1,166 @@
+text,emotion
+
+"I am very angry about this service",angry
+"This is frustrating and unacceptable",angry
+"I am extremely disappointed with this service",angry
+"This is ridiculous and unacceptable",angry
+"I have been waiting for hours",angry
+"This is very frustrating",angry
+"I am not happy at all",angry
+"This is the worst support ever",angry
+"I am fed up with this issue",angry
+"This is completely wrong",angry
+"Why is this happening again?",angry
+"I am tired of this problem",angry
+"This makes me very upset",angry
+"I cannot tolerate this anymore",angry
+"This is very disappointing",angry
+"I am really annoyed right now",angry
+"This is so frustrating",angry
+"I expected better service",angry
+"This is unacceptable behavior",angry
+"I am angry about this situation",angry
+"This is not what I paid for",angry
+"I feel cheated",angry
+"You people never fix anything",angry
+"This is terrible support",angry
+"I am losing patience",angry
+"This problem keeps repeating",angry
+"I am extremely frustrated",angry
+"This is completely unfair",angry
+"I am very upset about this",angry
+"This is so annoying",angry
+"I am disappointed with your service",angry
+"Why is nothing working?",angry
+"This is a serious issue",angry
+"I am very dissatisfied",angry
+"This should not happen",angry
+"I am frustrated with this delay",angry
+"This is very poor service",angry
+"I am angry about the delay",angry
+"This is unacceptable support",angry
+"I am not satisfied at all",angry
+
+
+"I don’t understand how this works",confused
+"Can you please explain this?",confused
+"I don’t understand what happened",confused
+"Can you clarify this for me?",confused
+"I am not sure what to do next",confused
+"This is confusing",confused
+"Why did this happen?",confused
+"I need more explanation",confused
+"I don’t get this process",confused
+"What does this mean?",confused
+"I am unsure about this step",confused
+"Can you explain it again?",confused
+"I am confused about my order",confused
+"This does not make sense to me",confused
+"How does this work?",confused
+"I am not clear about the instructions",confused
+"Can you guide me?",confused
+"I don’t understand the issue",confused
+"What should I do now?",confused
+"This seems complicated",confused
+"I am lost here",confused
+"I need help understanding this",confused
+"Can you explain the details?",confused
+"I don’t know what went wrong",confused
+"I am confused about the payment",confused
+"Why is my order showing this?",confused
+"I don’t understand this error",confused
+"This is unclear",confused
+"I am not sure what happened",confused
+"Can you provide more details?",confused
+"I am unsure about my account",confused
+"What is the next step?",confused
+"I am confused about the delay",confused
+"I don’t understand this message",confused
+"Please explain the situation",confused
+"I am confused about my refund",confused
+"This is confusing for me",confused
+"I need clarification",confused
+"I don’t understand your response",confused
+"What does this status mean?",confused
+
+
+"Okay, I see now",neutral
+"That makes sense",neutral
+"Okay noted",neutral
+"That is fine",neutral
+"I understand",neutral
+"Alright",neutral
+"Please continue",neutral
+"I see",neutral
+"Okay thanks",neutral
+"That’s okay",neutral
+"Understood",neutral
+"Noted",neutral
+"Alright then",neutral
+"Okay I will wait",neutral
+"That works",neutral
+"Fine with me",neutral
+"Okay please proceed",neutral
+"I acknowledge this",neutral
+"That is acceptable",neutral
+"I will check it",neutral
+"Okay got it",neutral
+"Please update me",neutral
+"I will review this",neutral
+"That sounds fine",neutral
+"I am okay with this",neutral
+"Alright thank you",neutral
+"Please assist",neutral
+"I am waiting",neutral
+"Let me know",neutral
+"Okay understood",neutral
+"I appreciate the update",neutral
+"Please confirm",neutral
+"Keep me informed",neutral
+"I will check later",neutral
+"Okay noted thank you",neutral
+"Please proceed with that",neutral
+"I will follow up",neutral
+"Okay I understand now",neutral
+"Waiting for your response",neutral
+
+
+"Thank you so much for your help",satisfied
+"I am happy with the service",satisfied
+"Thank you for your quick help",satisfied
+"I really appreciate your support",satisfied
+"That solved my issue",satisfied
+"I am very satisfied",satisfied
+"Great service",satisfied
+"This was very helpful",satisfied
+"I am pleased with the assistance",satisfied
+"Thanks for resolving this",satisfied
+"I am happy now",satisfied
+"Excellent support",satisfied
+"Thanks for the quick response",satisfied
+"I appreciate your help",satisfied
+"Problem solved, thanks",satisfied
+"Very good service",satisfied
+"I am satisfied with the resolution",satisfied
+"That was helpful",satisfied
+"Everything is clear now",satisfied
+"Thank you for the explanation",satisfied
+"I am happy with the outcome",satisfied
+"Great job",satisfied
+"Thanks a lot",satisfied
+"I am grateful for the help",satisfied
+"This was handled well",satisfied
+"Perfect solution",satisfied
+"That was quick and efficient",satisfied
+"I appreciate the support team",satisfied
+"Thanks for fixing the issue",satisfied
+"I am satisfied with your service",satisfied
+"Excellent assistance",satisfied
+"Very helpful response",satisfied
+"Thanks for your patience",satisfied
+"I feel supported",satisfied
+"Good experience overall",satisfied
+"I am glad this was resolved",satisfied
+"Thank you for your support",satisfied
+"Great help",satisfied
+"That worked perfectly",satisfied

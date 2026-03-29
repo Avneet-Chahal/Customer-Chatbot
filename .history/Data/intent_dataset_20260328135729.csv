@@ -1,0 +1,328 @@
+text,intent_label
+
+"Where is my order?",order_status
+"I want to track my package",order_status
+"Can you tell me the status of my order?",order_status
+"Is my order shipped yet?",order_status
+"Check my order status please",order_status
+"I want to see my order details",order_status
+"Has my order been dispatched?",order_status
+"Where can I track my order?",order_status
+"Order status update needed",order_status
+"Can I know if my order is confirmed?",order_status
+"Show my current order status",order_status
+"Track my recent order",order_status
+"I need help with my order",order_status
+"Where can I check my order?",order_status
+"Please update me on my order",order_status
+"Has my package been shipped?",order_status
+"Is my order on the way?",order_status
+"What is the current status of my shipment?",order_status
+"Can I get tracking information?",order_status
+"Where is my recent purchase?",order_status
+"Is my order dispatched yet?",order_status
+"Can you confirm my order progress?",order_status
+"Track my package please",order_status
+"When will my order arrive?",order_status
+"Give me my order update",order_status
+"Is my parcel shipped?",order_status
+"Check shipment progress",order_status
+"Update me about my delivery",order_status
+"I want shipment details",order_status
+"Show tracking details",order_status
+"Where is my parcel now?",order_status
+"Package details",order_status
+"Show package details",order_status
+"Track my package",order_status
+"Where is my package",order_status
+
+
+"My order has not arrived yet",delivery_delay
+"My delivery is late",delivery_delay
+"The package has not arrived on time",delivery_delay
+"My order is delayed again",delivery_delay
+"Why is my delivery taking so long?",delivery_delay
+"I was supposed to receive my order yesterday",delivery_delay
+"There is a delay in my shipment",delivery_delay
+"My delivery deadline has passed",delivery_delay
+"The courier has not delivered my package",delivery_delay
+"My order delivery is pending",delivery_delay
+"Delivery is slower than expected",delivery_delay
+"My parcel is still not here",delivery_delay
+"The delivery is taking too long",delivery_delay
+"Why is my shipment delayed?",delivery_delay
+"My package is late again",delivery_delay
+"I did not receive my delivery",delivery_delay
+"My order is stuck in transit",delivery_delay
+"The shipment is delayed",delivery_delay
+"My parcel has not arrived",delivery_delay
+"Delivery time exceeded",delivery_delay
+"It was supposed to arrive today",delivery_delay
+"Why is there a delay?",delivery_delay
+"The courier is late",delivery_delay
+"My shipment is behind schedule",delivery_delay
+"The delivery is pending for days",delivery_delay
+"My order hasn't come yet",delivery_delay
+"This delivery is too slow",delivery_delay
+"The parcel is not delivered yet",delivery_delay
+"I am waiting for delivery",delivery_delay
+"Package delayed",delivery_delay
+"My package is delayed",delivery_delay
+"Order not arrived",delivery_delay
+"Order not delivered",delivery_delay
+"Delivery not received",delivery_delay
+
+
+"I need to request a refund",refund_request
+"Refund my purchase",refund_request
+"I want compensation for this order",refund_request
+"How do I return this and get money back?",refund_request
+"I am asking for a refund",refund_request
+"Please refund the amount",refund_request
+"I did not like the product, refund it",refund_request
+"My return has not been refunded",refund_request
+"I want a refund immediately",refund_request
+"When will I receive my refund?",refund_request
+"Cancel my order and refund me",refund_request
+"I need my money returned",refund_request
+"Start refund process",refund_request
+"I want to send this back and get a refund",refund_request
+"Refund not received yet",refund_request
+"Why is my refund delayed?",refund_request
+"I am still waiting for my refund",refund_request
+"Give me a refund update",refund_request
+"I want a refund for my purchase",refund_request
+"I want my money back",refund_request
+"Please process my refund",refund_request
+"How can I get a refund?",refund_request
+"I am requesting a refund for my order",refund_request
+"My refund has not been processed",refund_request
+"I need a refund immediately",refund_request
+"Refund my payment please",refund_request
+"I cancelled my order, where is my refund?",refund_request
+"Can you initiate a refund?",refund_request
+"I want to return the product and get a refund",refund_request
+
+
+"My order problem needs fixing",product_issue
+"The product I received is damaged",product_issue
+"The item I received is broken",product_issue
+"I got the wrong product",product_issue
+"The product quality is poor",product_issue
+"My item is defective",product_issue
+"I received a damaged package",product_issue
+"The product does not work properly",product_issue
+"I received an incomplete item",product_issue
+"The product description does not match",product_issue
+"My product stopped working",product_issue
+"There is an issue with the product",product_issue
+"My product arrived damaged",product_issue
+"The item is not working",product_issue
+"I received a faulty item",product_issue
+"The product is defective",product_issue
+"This item is broken",product_issue
+"I got a wrong item delivered",product_issue
+"The quality is very bad",product_issue
+"My device is not functioning",product_issue
+"I received incorrect product",product_issue
+"The product stopped working suddenly",product_issue
+"There is damage to the item",product_issue
+"The package was damaged",product_issue
+"This product is not as described",product_issue
+"I got a used product",product_issue
+"My product is missing parts",product_issue
+"This item is not usable",product_issue
+"The product has a manufacturing defect",product_issue
+"The product performance is poor",product_issue
+
+
+"I was charged incorrectly",payment_issue
+"Payment did not complete",payment_issue
+"My bank shows deduction but no confirmation",payment_issue
+"I cannot complete the payment",payment_issue
+"The transaction failed",payment_issue
+"Why was I billed twice?",payment_issue
+"My debit card was declined",payment_issue
+"The payment system is not responding",payment_issue
+"I paid but order is not confirmed",payment_issue
+"There is an issue with my transaction",payment_issue
+"My payment was rejected",payment_issue
+"I was overcharged",payment_issue
+"The payment page is not loading",payment_issue
+"Why did my payment fail?",payment_issue
+"Double payment deducted",payment_issue
+"Refund my incorrect charge",payment_issue
+"Payment stuck in processing",payment_issue
+"I cannot verify my payment",payment_issue
+"I want help with payment",payment_issue
+"My payment failed but money was deducted",payment_issue
+"My payment did not go through",payment_issue
+"Money was deducted twice",payment_issue
+"I was charged but order failed",payment_issue
+"My transaction was unsuccessful",payment_issue
+"I am facing issues with payment",payment_issue
+"The payment gateway is not working",payment_issue
+"My card payment failed",payment_issue
+"I paid but did not get confirmation",payment_issue
+"Payment problem occurred",payment_issue
+"I was charged without placing an order",payment_issue
+
+
+"I cannot log into my profile",account_problem
+"My account password is not working",account_problem
+"I am locked out of my account",account_problem
+"Unable to sign in",account_problem
+"I forgot my login details",account_problem
+"My account details are incorrect",account_problem
+"I cannot update my account information",account_problem
+"My account is blocked",account_problem
+"I need to recover my account",account_problem
+"My username is not recognized",account_problem
+"I am facing authentication issues",account_problem
+"Account access denied",account_problem
+"I cannot verify my account",account_problem
+"My profile is not loading",account_problem
+"I want to change my account password",account_problem
+"My account login keeps failing",account_problem
+"I cannot reset my credentials",account_problem
+"My account is temporarily disabled",account_problem
+"I am unable to login to my account",account_problem
+"I forgot my account password",account_problem
+"I cannot access my account",account_problem
+"My account is locked",account_problem
+"I am facing login issues",account_problem
+"My account was suspended",account_problem
+"I need help with my account",account_problem
+"Unable to reset my password",account_problem
+"I think my account was hacked",account_problem
+"I cannot update my profile details",account_problem
+"My account is not working",account_problem
+
+
+"I am very disappointed with your service",complaint
+"This experience is terrible",complaint
+"I want to complain about this issue",complaint
+"The service is unacceptable",complaint
+"I am not happy with your response",complaint
+"This is very poor support",complaint
+"I expected better assistance",complaint
+"I am dissatisfied with the service",complaint
+"This is not acceptable",complaint
+"I am extremely unhappy",complaint
+"I am not impressed",complaint
+"This is bad customer service",complaint
+"I am frustrated with your team",complaint
+"The service quality is very low",complaint
+"This is the worst support I have seen",complaint
+"I want to escalate this complaint",complaint
+"I am not satisfied at all",complaint
+"This support is disappointing",complaint
+"This service is very bad",complaint
+"I am very unhappy with the service",complaint
+"This is the worst experience ever",complaint
+"I want to file a complaint",complaint
+"The service quality is terrible",complaint
+"I am not satisfied with your support",complaint
+"This is unacceptable service",complaint
+"I had a bad experience",complaint
+"I am extremely disappointed",complaint
+"Your service needs improvement",complaint
+"I want to report an issue",complaint
+
+
+"I need some information",general_query
+"Can you give me more details?",general_query
+"I have a doubt",general_query
+"I need clarification on something",general_query
+"Please provide more information",general_query
+"I want some guidance",general_query
+"Can you assist me?",general_query
+"I need help regarding my account",general_query
+"I have a question about my order",general_query
+"Can you explain the process?",general_query
+"I would like more details",general_query
+"Please help me understand this",general_query
+"I need some assistance",general_query
+"Can you help me with this?",general_query
+"I want to know how this works",general_query
+"Please explain this to me",general_query
+"I have some queries",general_query
+"Guide me through this process",general_query
+"Can you help me?",general_query
+"I have a question",general_query
+"Can you provide some information?",general_query
+"I need some help",general_query
+"Can you assist me with something?",general_query
+"I want to know more about your services",general_query
+"Please guide me",general_query
+"I have an inquiry",general_query
+"Can I ask something?",general_query
+"I need assistance",general_query
+"Help me with this issue",general_query
+
+
+"Good afternoon",greeting
+"Good day",greeting
+"Hi there",greeting
+"Hello team",greeting
+"Hey support",greeting
+"Hi assistant",greeting
+"Hello chatbot",greeting
+"Greetings support",greeting
+"Good to see you",greeting
+"Hey there support",greeting
+"Hi again",greeting
+"Hello again",greeting
+"Good evening support",greeting
+"Morning",greeting
+"Hi customer service",greeting
+"Hey chatbot",greeting
+"Hello support team",greeting
+"Hi helpdesk",greeting
+"Hello",greeting
+"Hi",greeting
+"Hey there",greeting
+"Good morning",greeting
+"Good evening",greeting
+"Hi support team",greeting
+"Hello there",greeting
+"Hey",greeting
+"Greetings",greeting
+"Hi chatbot",greeting
+"Hello support",greeting
+
+
+"Thank you, goodbye",goodbye
+"See you",goodbye
+"Bye bye",goodbye
+"Thanks for the support",goodbye
+"I appreciate it, bye",goodbye
+"That’s all, thanks",goodbye
+"Good night",goodbye
+"Thanks, talk later",goodbye
+"Catch you later",goodbye
+"Ending this chat",goodbye
+"Have a nice day",goodbye
+"Thanks, that’s enough",goodbye
+"Appreciate your help, bye",goodbye
+"Thanks for your assistance",goodbye
+"Signing off",goodbye
+"Talk soon",goodbye
+"That resolves my issue, bye",goodbye
+"Okay thanks, goodbye",goodbye
+"Thanks for your help",goodbye
+"Bye",goodbye
+"Goodbye",goodbye
+"See you later",goodbye
+"Thanks, bye",goodbye
+"Have a good day",goodbye
+"I am done, thank you",goodbye
+"That's all for now",goodbye
+"Ending the chat",goodbye
+"Talk to you later",goodbye
+"Thanks and goodbye",goodbye
+
+
+
+
+

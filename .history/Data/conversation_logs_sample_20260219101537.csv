@@ -1,0 +1,102 @@
+conversation_id,user_id,user_message,detected_intent,detected_emotion,confidence_score,bot_response,resolution_status
+
+c001,u101,"Where is my order?",order_status,confused,0.78,"Your order is on the way.",Resolved
+c002,u102,"My refund still hasn’t been processed",refund_request,angry,0.61,"I understand your concern. Let me escalate this to our billing team.",Unresolved
+c003,u103,"Thanks for helping me",goodbye,satisfied,0.90,"You're welcome! Happy to help.",Resolved
+c004,u104,"My delivery is late",delivery_delay,angry,0.72,"I apologize for the delay. Let me check the shipment details.",Resolved
+c005,u105,"Can I track my order?",order_status,neutral,0.81,"Sure, you can track your order using the tracking link sent to your email.",Resolved
+c006,u106,"I want my money back",refund_request,angry,0.67,"I'm sorry for the inconvenience. I will initiate your refund process.",Resolved
+c007,u107,"I forgot my password",account_problem,confused,0.75,"You can reset your password using the forgot password option.",Resolved
+c008,u108,"This service is terrible",complaint,angry,0.63,"I'm sorry to hear that. Please tell me what went wrong.",Unresolved
+c009,u109,"Thank you for your help",goodbye,satisfied,0.91,"You're welcome! Happy to assist you anytime.",Resolved
+c010,u110,"How do I check my order status?",order_status,confused,0.79,"You can check your order status from your account dashboard.",Resolved
+c011,u111,"The item I received is broken",product_issue,angry,0.70,"I apologize for the inconvenience. We will arrange a replacement.",Resolved
+c012,u112,"Payment failed but amount deducted",payment_issue,angry,0.68,"Let me verify your transaction and resolve the issue.",Resolved
+c013,u113,"Good morning",greeting,neutral,0.94,"Good morning! How may I assist you today?",Resolved
+c014,u114,"My order hasn't arrived yet",delivery_delay,confused,0.73,"I will check the delivery status for you right away.",Resolved
+c015,u115,"Can you explain this charge?",payment_issue,confused,0.77,"Sure, let me explain the charge details.",Resolved
+c016,u116,"I am very frustrated",complaint,angry,0.61,"I understand your frustration. Please share more details.",Unresolved
+c017,u117,"Is my order confirmed?",order_status,neutral,0.83,"Yes, your order has been successfully confirmed.",Resolved
+c018,u118,"I need assistance",general_query,neutral,0.80,"Of course, please let me know how I can help you.",Resolved
+c019,u119,"I want to cancel my order",refund_request,angry,0.66,"Your cancellation request has been received.",Resolved
+c020,u120,"Hi there",greeting,neutral,0.93,"Hello! How can I help you today?",Resolved
+c021,u121,"My account is locked",account_problem,confused,0.74,"I will help you unlock your account.",Resolved
+c022,u122,"This delay is unacceptable",delivery_delay,angry,0.62,"I apologize for the inconvenience caused by the delay.",Unresolved
+c023,u123,"Everything is fine now",general_query,neutral,0.89,"Glad to hear that! Let me know if you need anything else.",Resolved
+c024,u124,"I received the wrong product",product_issue,angry,0.71,"I’m sorry about that. We will arrange an exchange.",Resolved
+c025,u125,"Why was I charged twice?",payment_issue,confused,0.78,"Let me check your billing history.",Resolved
+c026,u126,"Bye",goodbye,satisfied,0.95,"Goodbye! Have a great day!",Resolved
+c027,u127,"Where is my package?",order_status,confused,0.82,"Your package is currently in transit.",Resolved
+c028,u128,"I am disappointed",complaint,angry,0.60,"I'm sorry you feel that way. Please tell me more.",Unresolved
+c029,u129,"How long will delivery take?",delivery_delay,neutral,0.84,"Delivery usually takes 3–5 business days.",Resolved
+c030,u130,"Refund my order immediately",refund_request,angry,0.64,"Your refund request has been submitted.",Resolved
+c031,u131,"I cannot login",account_problem,confused,0.76,"Let me assist you with login recovery.",Resolved
+c032,u132,"Thanks a lot",goodbye,satisfied,0.92,"You're most welcome!",Resolved
+c033,u133,"Can you help me with my order?",general_query,neutral,0.88,"Sure, please provide your order number.",Resolved
+c034,u134,"This is very annoying",complaint,angry,0.59,"I apologize for the inconvenience.",Unresolved
+c035,u135,"Track my order please",order_status,neutral,0.86,"You can track your order from your account page.",Resolved
+c036,u136,"The product is defective",product_issue,angry,0.69,"We will replace the defective product.",Resolved
+c037,u137,"I need clarification",confused,confused,0.81,"Please let me know what you would like clarified.",Resolved
+c038,u138,"I am happy with the service",goodbye,satisfied,0.90,"Thank you for your feedback!",Resolved
+c039,u139,"Payment error occurred",payment_issue,confused,0.73,"I will check the payment gateway status.",Resolved
+c040,u140,"My shipment is delayed",delivery_delay,angry,0.67,"We are checking with the courier partner.",Resolved
+c041,u141,"Hello support",greeting,neutral,0.94,"Hello! How can I assist you today?",Resolved
+c042,u142,"Why is my refund pending?",refund_request,confused,0.75,"Let me check the refund processing status.",Resolved
+c043,u143,"I am not satisfied",complaint,angry,0.58,"I'm sorry to hear that. Please share details.",Unresolved
+c044,u144,"Where can I see order details?",order_status,neutral,0.87,"You can view order details in your profile section.",Resolved
+c045,u145,"The delivery is too slow",delivery_delay,angry,0.63,"I apologize for the delay.",Unresolved
+c046,u146,"I appreciate your support",goodbye,satisfied,0.93,"Glad I could help!",Resolved
+c047,u147,"Reset my password",account_problem,confused,0.79,"You can reset it using the password reset link.",Resolved
+c048,u148,"My card payment failed",payment_issue,angry,0.68,"Please try again or use another payment method.",Resolved
+c049,u149,"Help me please",general_query,confused,0.85,"Sure, please tell me your issue.",Resolved
+c050,u150,"The product stopped working",product_issue,angry,0.70,"We will arrange a service request.",Resolved
+c051,u151,"My order confirmation email not received",order_status,confused,0.82,"Please check your spam folder while I resend the confirmation email.",Resolved
+c052,u152,"Why is my package still in transit?",delivery_delay,confused,0.74,"Let me check the latest tracking update for you.",Resolved
+c053,u153,"I want to return this item",refund_request,neutral,0.83,"Sure, I will initiate the return request for you.",Resolved
+c054,u154,"This app keeps crashing",complaint,angry,0.61,"I apologize for the inconvenience. Our team is looking into it.",Unresolved
+c055,u155,"Can you guide me through checkout?",general_query,confused,0.86,"Of course, I will guide you step by step.",Resolved
+c056,u156,"My refund is taking too long",refund_request,angry,0.66,"I understand your concern. Let me check the refund status.",Resolved
+c057,u157,"I cannot update my profile",account_problem,confused,0.78,"Please try refreshing the page. I will assist if it still fails.",Resolved
+c058,u158,"The delivery date keeps changing",delivery_delay,angry,0.64,"I apologize for the inconvenience. Let me investigate this.",Unresolved
+c059,u159,"Thanks for resolving my issue",goodbye,satisfied,0.94,"You're welcome! Happy to help anytime.",Resolved
+c060,u160,"Is my order out for delivery?",order_status,neutral,0.88,"Yes, your order is out for delivery today.",Resolved
+c061,u161,"I was charged but no order placed",payment_issue,angry,0.67,"Let me verify the transaction and assist you.",Resolved
+c062,u162,"Why was my account suspended?",account_problem,confused,0.72,"I will review your account details and inform you.",Resolved
+c063,u163,"This product quality is poor",product_issue,angry,0.69,"We apologize for the issue. Replacement can be arranged.",Resolved
+c064,u164,"I need more information about your services",general_query,neutral,0.90,"Sure, I will provide the details you need.",Resolved
+c065,u165,"My tracking number is not working",order_status,confused,0.76,"Let me verify the tracking number for you.",Resolved
+c066,u166,"Delivery was supposed to arrive yesterday",delivery_delay,angry,0.62,"I apologize for the delay. I will escalate this.",Unresolved
+c067,u167,"Can I change my delivery address?",general_query,neutral,0.87,"Yes, please provide the new address details.",Resolved
+c068,u168,"The wrong size was delivered",product_issue,angry,0.71,"We will arrange an exchange for the correct size.",Resolved
+c069,u169,"How long does refund processing take?",refund_request,neutral,0.84,"Refunds usually take 5–7 business days.",Resolved
+c070,u170,"I cannot verify my email",account_problem,confused,0.79,"Please click the verification link again or request a new one.",Resolved
+c071,u171,"I am extremely upset with the delay",delivery_delay,angry,0.59,"I sincerely apologize. Let me check with the courier.",Unresolved
+c072,u172,"Everything looks good now",general_query,neutral,0.91,"Glad to hear that! Let me know if you need anything else.",Resolved
+c073,u173,"My order was cancelled automatically",order_status,confused,0.75,"Let me check why the order was cancelled.",Resolved
+c074,u174,"The product description was misleading",complaint,angry,0.63,"I’m sorry about that. I will report this issue.",Unresolved
+c075,u175,"I want to speak to a manager",complaint,angry,0.60,"I understand. I will escalate this to a supervisor.",Unresolved
+c076,u176,"How do I apply a discount code?",general_query,confused,0.88,"You can apply the discount code at checkout.",Resolved
+c077,u177,"Payment gateway is not responding",payment_issue,angry,0.65,"Please try again after some time. I will report this.",Resolved
+c078,u178,"I received incomplete items",product_issue,angry,0.70,"We will arrange the missing items immediately.",Resolved
+c079,u179,"Thanks for the clarification",goodbye,satisfied,0.93,"Happy to help!",Resolved
+c080,u180,"Can you confirm my delivery date?",order_status,neutral,0.86,"Your delivery is scheduled for tomorrow.",Resolved
+c081,u181,"The courier never contacted me",delivery_delay,angry,0.62,"I apologize for that. I will follow up with them.",Unresolved
+c082,u182,"My refund was partially processed",refund_request,confused,0.77,"Let me review your refund transaction.",Resolved
+c083,u183,"I forgot my username",account_problem,confused,0.80,"You can retrieve it using your registered email.",Resolved
+c084,u184,"This is taking too much time",complaint,angry,0.58,"I understand your frustration. Let me speed this up.",Unresolved
+c085,u185,"Where can I download my invoice?",general_query,neutral,0.89,"Invoices are available in your account section.",Resolved
+c086,u186,"The delivery partner was rude",complaint,angry,0.61,"I apologize. We will report this behavior.",Unresolved
+c087,u187,"Can I reschedule my delivery?",delivery_delay,neutral,0.85,"Yes, please select a new date from your dashboard.",Resolved
+c088,u188,"My payment receipt is missing",payment_issue,confused,0.74,"I will resend the payment receipt to your email.",Resolved
+c089,u189,"The product stopped working after one day",product_issue,angry,0.69,"We will arrange a replacement immediately.",Resolved
+c090,u190,"Great service, thank you",goodbye,satisfied,0.95,"Thank you for your feedback!",Resolved
+c091,u191,"My account shows incorrect information",account_problem,confused,0.76,"I will correct your account details.",Resolved
+c092,u192,"Why is my refund rejected?",refund_request,angry,0.63,"Let me review the rejection reason.",Resolved
+c093,u193,"My shipment tracking is frozen",delivery_delay,confused,0.72,"I will contact the courier service for updates.",Resolved
+c094,u194,"How do I update my payment method?",general_query,neutral,0.90,"You can update it from your account settings.",Resolved
+c095,u195,"This is not the service I expected",complaint,angry,0.57,"I’m sorry for the inconvenience caused.",Unresolved
+c096,u196,"Order delivered but not received",delivery_delay,angry,0.61,"Let me investigate this issue immediately.",Unresolved
+c097,u197,"Can I cancel my refund request?",refund_request,neutral,0.82,"Yes, I will cancel your refund request.",Resolved
+c098,u198,"I cannot access my order history",account_problem,confused,0.79,"Please refresh the page or log in again.",Resolved
+c099,u199,"Thanks for the quick assistance",goodbye,satisfied,0.94,"You're very welcome!",Resolved
+c100,u200,"Is my payment secure?",payment_issue,neutral,0.87,"Yes, all payments are securely processed.",Resolved

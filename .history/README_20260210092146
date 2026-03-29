@@ -1,0 +1,22 @@
+# Self-Improving AI Customer Support Chatbot
+
+## Project Overview
+This project aims to develop a self-improving AI-based customer support chatbot that can understand user intent and emotion, adapt responses based on confidence levels, and continuously improve by learning from failed conversations.
+
+## Key Features
+- Intent detection
+- Emotion-aware responses
+- Confidence-aware response generation
+- Failure detection and logging
+- Automatic learning from failures
+- Analytics and insights generation
+
+## Technology Stack
+- Python
+- Streamlit
+- FastAPI / Flask
+- scikit-learn
+- SQLite
+
+## Project Status
+Week 1: System design and planning completed.
