@@ -19,3 +19,4 @@ def save_message(user, bot):
     
     with open(FILE_PATH, "w") as f:
         json.dump(history, f, indent=4)
+        

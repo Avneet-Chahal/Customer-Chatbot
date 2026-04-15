@@ -114,7 +114,6 @@ https://customer-chatbot-01.streamlit.app
 ---
 
 ## 👨‍💻 Author
-
 **Avneet Kaur**
 
 ---
