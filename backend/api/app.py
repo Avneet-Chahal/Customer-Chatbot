@@ -1,7 +1,8 @@
 import os
 import secrets
+from pathlib import Path
 
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS
 from itsdangerous import BadSignature, SignatureExpired, URLSafeTimedSerializer
 
@@ -15,12 +16,27 @@ from backend.ml.emotion_engine import detect_emotion
 from backend.ml.intent_engine import predict_intent
 from backend.response.response_generator import generate_response
 
-app = Flask(__name__)
+FRONTEND_DIR = Path(__file__).resolve().parent.parent.parent / "frontend"
+
+app = Flask(__name__, static_folder=str(FRONTEND_DIR), static_url_path="")
 app.secret_key = os.environ.get("FLASK_SECRET_KEY", secrets.token_hex(32))
 serializer = URLSafeTimedSerializer(app.secret_key)
 CORS(app, supports_credentials=True)
 
 initialize_database()
+
+
+@app.get("/")
+def serve_home():
+    return send_from_directory(FRONTEND_DIR, "index.html")
+
+
+@app.get("/<page>.html")
+def serve_page(page: str):
+    allowed = {"login", "signup", "chat"}
+    if page not in allowed:
+        return send_from_directory(FRONTEND_DIR, "index.html")
+    return send_from_directory(FRONTEND_DIR, f"{page}.html")
 
 
 def _token_for(username: str) -> str:

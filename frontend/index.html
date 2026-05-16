@@ -2,16 +2,121 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232563eb'/><text x='50' y='68' font-size='52' font-weight='700' fill='white' text-anchor='middle' font-family='system-ui'>S</text></svg>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="AI-powered customer support chatbot with intent detection, emotion analysis, and self-improving responses." />
+    <meta name="description" content="AI-powered customer support chatbot." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232563eb'/><text x='50' y='68' font-size='52' font-weight='700' fill='white' text-anchor='middle' font-family='system-ui'>S</text></svg>" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Plus+Jakarta+Sans:ital,wght@0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>SupportAI — Customer Support Chatbot</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="app-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="/" class="logo">Support<span class="logo-accent">AI</span></a>
+          <nav class="nav-links" aria-label="Main">
+            <a href="/" class="active">Home</a>
+            <a href="/chat.html" class="auth-user hidden">Chat</a>
+          </nav>
+          <div class="header-actions">
+            <button type="button" id="theme-toggle" class="theme-toggle btn btn-ghost btn-sm" aria-label="Toggle theme">🌙</button>
+            <span class="auth-user hidden">
+              <span id="user-badge" class="user-badge"></span>
+              <button type="button" id="logout-btn" class="btn btn-ghost btn-sm">Log out</button>
+            </span>
+            <span class="auth-guest">
+              <a href="/login.html" class="btn btn-ghost btn-sm">Log in</a>
+              <a href="/signup.html" class="btn btn-primary btn-sm">Sign up</a>
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <section class="hero">
+          <div class="container hero-inner">
+            <div class="hero-content">
+              <p class="hero-badge">AI Customer Support</p>
+              <h1 class="display-title hero-title">Support that understands your customers</h1>
+              <p class="hero-desc">
+                SupportAI is a self-improving chatbot that detects intent and emotion,
+                scores its own confidence, and learns from every conversation — so your
+                team can focus on what matters most.
+              </p>
+              <div class="hero-cta auth-guest">
+                <a href="/signup.html" class="btn btn-primary">Get started free</a>
+                <a href="/login.html" class="btn btn-ghost">Log in</a>
+              </div>
+              <div class="hero-cta auth-user hidden">
+                <a href="/chat.html" class="btn btn-primary">Open Chat →</a>
+              </div>
+              <ul class="hero-stats">
+                <li><strong>6+</strong><span>Intent categories</span></li>
+                <li><strong>4</strong><span>Emotion states</span></li>
+                <li><strong>24/7</strong><span>Availability</span></li>
+              </ul>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+              <div class="chat-preview">
+                <div class="preview-header">
+                  <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                  <span>SupportAI</span>
+                </div>
+                <div class="preview-messages">
+                  <div class="preview-msg user">Where is my order #4821?</div>
+                  <div class="preview-msg bot">I can help track that. Your package is out for delivery today.<small>Intent: order_status · Confidence: High</small></div>
+                  <div class="preview-msg user">Thanks, that helps!</div>
+                  <div class="preview-msg bot">Glad I could help! Anything else?<small>Emotion: happy</small></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="flash-section" id="features">
+          <div class="container">
+            <div class="section-header">
+              <p class="eyebrow">Why SupportAI</p>
+              <h2 class="display-title section-title">Everything you need for modern customer support</h2>
+              <p class="section-subtitle">A self-improving AI chatbot built with intent detection, emotion analysis, and real conversation logging — not just canned replies.</p>
+            </div>
+            <div class="flash-grid">
+              <article class="flash-card"><span class="flash-icon">🎯</span><h3>Smart Intent Detection</h3><p>Understands order tracking, refunds, payments, and more using NLP and TF-IDF similarity.</p></article>
+              <article class="flash-card"><span class="flash-icon">💬</span><h3>Emotion-Aware Replies</h3><p>Detects happy, neutral, confused, or frustrated tones for empathetic responses.</p></article>
+              <article class="flash-card"><span class="flash-icon">⚡</span><h3>Instant 24/7 Support</h3><p>Your AI assistant is always on, ready to help customers the moment they reach out.</p></article>
+              <article class="flash-card"><span class="flash-icon">📊</span><h3>Confidence Engine</h3><p>Scores every answer so the bot knows when it's sure — and when a human should step in.</p></article>
+              <article class="flash-card"><span class="flash-icon">🔄</span><h3>Self-Improving System</h3><p>Logs low-confidence conversations to continuously improve support quality.</p></article>
+              <article class="flash-card"><span class="flash-icon">🔒</span><h3>Secure Accounts</h3><p>Sign up to keep your chat history tied to your profile, stored safely in SQLite.</p></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta-band">
+          <div class="container cta-inner">
+            <h2 class="display-title cta-title">Ready to try the chatbot?</h2>
+            <p>Create an account and start a conversation — ask about orders, refunds, or payments.</p>
+            <a href="/signup.html" class="btn btn-primary auth-guest">Sign up now</a>
+            <a href="/chat.html" class="btn btn-primary auth-user hidden">Go to chat</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div class="footer-brand">
+            <p class="footer-logo">Support<span>AI</span></p>
+            <p class="footer-tagline">Intelligent customer support powered by NLP, emotion detection, and self-improving AI.</p>
+          </div>
+          <div class="footer-links"><h4>Product</h4><a href="/">Home</a><a href="/chat.html">Live Chat</a><a href="/signup.html">Get Started</a></div>
+          <div class="footer-links"><h4>Account</h4><a href="/login.html">Log in</a><a href="/signup.html">Sign up</a></div>
+          <div class="footer-links"><h4>Capabilities</h4><span>Intent detection</span><span>Emotion analysis</span><span>Confidence scoring</span></div>
+        </div>
+        <div class="container footer-bottom"><p>© <span id="year"></span> SupportAI. Built for smarter customer support.</p></div>
+      </footer>
+    </div>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+    <script src="/js/app.js"></script>
   </body>
 </html>

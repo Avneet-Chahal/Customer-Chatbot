@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Log in — SupportAI</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="/" class="logo">Support<span class="logo-accent">AI</span></a>
+          <nav class="nav-links"><a href="/">Home</a></nav>
+          <div class="header-actions">
+            <button type="button" id="theme-toggle" class="theme-toggle btn btn-ghost btn-sm" aria-label="Toggle theme">🌙</button>
+            <a href="/signup.html" class="btn btn-primary btn-sm">Sign up</a>
+          </div>
+        </div>
+      </header>
+      <main class="main-content page-center">
+        <form id="login-form" class="form-card">
+          <h1>Welcome back</h1>
+          <p class="subtitle">Log in to continue your support conversations.</p>
+          <div id="form-error" class="form-error hidden"></div>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" autocomplete="username" required minlength="3" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" autocomplete="current-password" required minlength="6" />
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%">Log in</button>
+          <p class="form-footer">Don't have an account? <a href="/signup.html">Sign up</a></p>
+        </form>
+      </main>
+    </div>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
