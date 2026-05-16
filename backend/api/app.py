@@ -26,19 +26,6 @@ CORS(app, supports_credentials=True)
 initialize_database()
 
 
-@app.get("/")
-def serve_home():
-    return send_from_directory(FRONTEND_DIR, "index.html")
-
-
-@app.get("/<page>.html")
-def serve_page(page: str):
-    allowed = {"login", "signup", "chat"}
-    if page not in allowed:
-        return send_from_directory(FRONTEND_DIR, "index.html")
-    return send_from_directory(FRONTEND_DIR, f"{page}.html")
-
-
 def _token_for(username: str) -> str:
     return serializer.dumps({"username": username})
 
@@ -157,5 +144,19 @@ def chat():
     )
 
 
+@app.get("/")
+def serve_home():
+    return send_from_directory(FRONTEND_DIR, "index.html")
+
+
+@app.get("/<page>.html")
+def serve_page(page: str):
+    allowed = {"login", "signup", "chat"}
+    if page not in allowed:
+        return send_from_directory(FRONTEND_DIR, "index.html")
+    return send_from_directory(FRONTEND_DIR, f"{page}.html")
+
+
 if __name__ == "__main__":
-    app.run(debug=True, port=5001)
+    port = int(os.environ.get("PORT", 5001))
+    app.run(host="0.0.0.0", debug=False, port=port)

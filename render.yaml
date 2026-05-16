@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: customer-chatbot
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python scripts/setup_render.py
+    startCommand: gunicorn run_api:app --bind 0.0.0.0:$PORT --timeout 120 --workers 1
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.0"
+      - key: FLASK_SECRET_KEY
+        generateValue: true

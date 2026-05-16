@@ -9,17 +9,14 @@ from sklearn.linear_model import (
     LogisticRegression
 )
 
-from backend.ml.preprocessing import (
-    preprocess_text
-)
+from backend.ml.preprocessing import preprocess_text
+from backend.paths import data_path
 
 # =========================
 # LOAD DATASET
 # =========================
 
-intent_df = pd.read_csv(
-    "data/intent_dataset.csv"
-)
+intent_df = pd.read_csv(data_path("intent_dataset.csv"))
 
 # =========================
 # CLEAN COLUMN NAMES

@@ -8,17 +8,14 @@ from sklearn.metrics.pairwise import (
     cosine_similarity
 )
 
-from backend.ml.preprocessing import (
-    preprocess_text
-)
+from backend.ml.preprocessing import preprocess_text
+from backend.paths import data_path
 
 # =========================
 # LOAD DATASET
 # =========================
 
-dataset = pd.read_csv(
-    "data/conversation_logs.csv"
-)
+dataset = pd.read_csv(data_path("conversation_logs.csv"))
 
 # =========================
 # CLEAN COLUMNS

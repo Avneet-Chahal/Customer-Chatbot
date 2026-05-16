@@ -1,8 +1,8 @@
 import sqlite3
 
-DATABASE_PATH = (
-    "data/chatbot.db"
-)
+from backend.paths import data_path
+
+DATABASE_PATH = str(data_path("chatbot.db"))
 
 def get_connection():
 
