@@ -1,69 +1,210 @@
 # 🤖 Self-Improving AI Customer Support Chatbot
 
-## 🚀 Project Overview
-
-This project focuses on building a **self-improving AI-powered customer support chatbot** that can understand user intent, detect emotions, and generate intelligent responses.
-The system continuously improves by learning from failed conversations and adapting its behavior over time.
+An intelligent AI-powered customer support chatbot built using Python, Streamlit, Natural Language Processing (NLP), and SQLite. The chatbot can understand customer queries, detect emotions, generate context-aware responses, log conversations, and support self-improving architecture through failure tracking and analytics.
 
 ---
 
-## 🧠 Key Features
+# 📌 Features
 
-* Intent detection using Machine Learning
-* Emotion-aware response generation
-* Confidence-based response handling
-* Fallback mechanism for low-confidence predictions
-* Failure detection and conversation logging
-* Continuous learning from past interactions
-* Analytics and insights generation
+✅ Intent Detection  
+✅ Emotion Detection  
+✅ Dataset-Driven Response Generation  
+✅ TF-IDF + Cosine Similarity Matching  
+✅ SQLite Database Integration  
+✅ Conversation History  
+✅ Failed Conversation Logging  
+✅ Confidence Engine  
+✅ Self-Improving Architecture  
+✅ Streamlit Frontend Interface  
+✅ Modular Backend Structure  
 
 ---
 
-## 🏗️ Project Architecture
+# 🧠 Technologies Used
 
-The project follows a modular design:
+- Python
+- Streamlit
+- SQLite
+- Pandas
+- Scikit-learn
+- NLTK
+- TextBlob
+- TF-IDF Vectorization
+- Cosine Similarity
+
+---
+
+# 📂 Project Structure
 
 ```bash
-Customer-Chatbot/
+Customer Chatbot/
 │
-├── Backend/        # Model training, prediction & logic
-├── Frontend/       # Streamlit UI
-├── Data/           # Datasets (intent, emotion, logs)
-├── Docs/           # Weekly progress documentation
-├── Diagrams/       # System architecture diagrams
-├── app.py          # Main application
+├── app.py
+│
+├── backend/
+│   ├── analytics/
+│   ├── confidence/
+│   ├── database/
+│   ├── failure/
+│   ├── ml/
+│   ├── response/
+│
+├── data/
+│   ├── chatbot.db
+│   ├── conversation_logs.csv
+│   ├── emotion_dataset.csv
+│   ├── failed_conversations.csv
+│   ├── intent_dataset.csv
+│
+├── Diagrams/
+│
+├── Docs/
+│
 ├── requirements.txt
-└── README.md
+│
+├── README.md
+│
+└── screenshot.png
 ```
 
 ---
 
-## ⚙️ Technology Stack
+# ⚙️ System Workflow
 
-* Python
-* Streamlit
-* FastAPI / Flask
-* Scikit-learn
-* SQLite
+```text
+User Message
+      ↓
+Text Preprocessing
+      ↓
+TF-IDF Similarity Search
+      ↓
+Intent Detection
+      ↓
+Emotion Detection
+      ↓
+Response Generation
+      ↓
+Confidence Evaluation
+      ↓
+SQLite Chat Logging
+      ↓
+Failure Detection
+      ↓
+Conversation History
+```
 
 ---
 
-## ▶️ How to Run the Project
+# 📊 Datasets Used
 
-### 1. Clone the Repository
+## 1. Intent Dataset
+Contains customer queries and their corresponding intents.
+
+Example:
+- order_status
+- refund_request
+- payment_issue
+- greeting
+- goodbye
+
+---
+
+## 2. Emotion Dataset
+Used for emotion analysis and sentiment understanding.
+
+Supported emotions:
+- happy
+- neutral
+- confused
+- angry
+
+---
+
+## 3. Conversation Logs Dataset
+Contains sample customer support conversations used for response generation.
+
+---
+
+# 🗄️ Database Tables
+
+## chat_history
+Stores:
+- user messages
+- bot responses
+- detected intents
+- emotions
+- confidence scores
+
+## failed_conversations
+Stores:
+- low-confidence conversations
+- unresolved queries
+- negative customer interactions
+
+## users
+Stores user account information.
+
+---
+
+# 🚀 Installation and Setup
+
+## 1. Clone Repository
 
 ```bash
-git clone https://github.com/Avneet-Chahal/Customer-Chatbot.git
-cd Customer-Chatbot
+git clone <your-github-repo-link>
 ```
 
-### 2. Install Dependencies
+---
+
+## 2. Open Project Folder
+
+```bash
+cd "Customer Chatbot"
+```
+
+---
+
+## 3. Create Virtual Environment
+
+```bash
+python -m venv .venv
+```
+
+---
+
+## 4. Activate Virtual Environment
+
+### Windows
+
+```bash
+.venv\\Scripts\\activate
+```
+
+### Linux / Mac
+
+```bash
+source .venv/bin/activate
+```
+
+---
+
+## 5. Install Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the Application
+---
+
+## 6. Initialize Database
+
+```bash
+python -m backend.database.init_db
+```
+
+---
+
+## 7. Run Streamlit Application
 
 ```bash
 streamlit run app.py
@@ -71,53 +212,73 @@ streamlit run app.py
 
 ---
 
-## 📊 Model Details
+# 🧪 Sample Test Inputs
 
-* Algorithm: Logistic Regression
-* Text Processing: TF-IDF Vectorization
-* Train-Test Split: 80-20
-* Evaluation: Accuracy + Classification Report
+```text
+Where is my order?
+```
 
----
+```text
+Track my package
+```
 
-## 📅 Development Progress
+```text
+I want refund for my order
+```
 
-* **Week 1**: System design and architecture planning
-* **Week 2**: Data collection and preprocessing
-* **Week 3**: NLP model training (Intent Classification)
-* **Week 4**: Chatbot logic and response system
-* **Week 5+**: UI integration, improvement, and testing
+```text
+Payment failed during checkout
+```
 
----
-
-## 📸 Demo (Add Screenshot Here)
-
-```bash
-![Chatbot UI](screenshot.png)
+```text
+This service is terrible
 ```
 
 ---
 
-## 🔮 Future Enhancements
+# 📈 Future Improvements
 
-* Integration with Deep Learning models (BERT / Transformers)
-* Multi-language chatbot support
-* Real-time database integration
-* Cloud deployment (Streamlit Cloud / AWS)
-* Advanced analytics dashboard
-
----
-
-## 🌐 Live Demo
-https://customer-chatbot-01.streamlit.app
+- Voice chatbot support
+- Real-time analytics dashboard
+- Automatic retraining system
+- Multi-language support
+- User authentication system
+- Deep learning NLP models
+- API deployment
 
 ---
 
-## 👨‍💻 Author
-**Avneet Kaur**
+# 📷 Project Screenshot
+
+Add project screenshot here:
+
+```text
+screenshot.png
+```
 
 ---
 
-## ⭐ Support
+# 📚 Learning Outcomes
 
-If you like this project, consider giving it a star ⭐ on GitHub!
+Through this project, the following concepts were explored:
+
+- Natural Language Processing
+- Machine Learning
+- Sentiment Analysis
+- TF-IDF Similarity
+- SQLite Database Management
+- Streamlit Frontend Development
+- Modular Backend Architecture
+- AI-based Customer Support Systems
+
+---
+
+# 👨‍💻 Author
+
+Avneet Chahal
+
+---
+
+# 📄 License
+
+This project is developed for educational and academic purposes.
