@@ -9,3 +9,6 @@ pyttsx3
 requests
 matplotlib
 plotly
+flask
+flask-cors
+werkzeug
