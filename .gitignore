@@ -1,28 +1,80 @@
+# =========================
 # Virtual Environment
+# =========================
+
 venv/
 .venv/
 
-# Python cache
+# =========================
+# Python Cache
+# =========================
+
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Environment variables
+# =========================
+# Environment Variables
+# =========================
+
 .env
 
-# VS Code settings
+# =========================
+# VS Code
+# =========================
+
 .vscode/
 
-# OS files
+# =========================
+# OS Files
+# =========================
+
 .DS_Store
 Thumbs.db
 
-# Project history
+# =========================
+# Project History
+# =========================
+
 .history/
 
+# =========================
 # Logs
+# =========================
+
 *.log
 
-# Model files (optional - only if large)
-# Models/*.pkl
+# =========================
+# SQLite Database
+# =========================
+
+chatbot.db
+*.db
+
+# =========================
+# Streamlit Cache
+# =========================
+
+.streamlit/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Temporary Files
+# =========================
+
+temp/
+tmp/
+
+# =========================
+# Model Files (Optional)
+# =========================
+
+# Uncomment if models become large
+
+# models/*.pkl

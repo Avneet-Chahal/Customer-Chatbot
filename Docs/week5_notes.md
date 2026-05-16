@@ -1,27 +1,15 @@
-**Week 5 — Intelligence Layer (ML + Recommendation System)**
+**Week 5 – Response Generation Module**
 
-✔ Conversation memory implemented using chat_history.json
-✔ Memory module (memory.py) created for storing and retrieving chat history
+✓ Implemented dataset-driven response generation
 
-✔ Recommendation system implemented using TF-IDF and cosine similarity
-✔ Similar past queries matched to reuse relevant responses
+✓ Added cosine similarity matching
 
-✔ Confidence-based decision logic added (high, medium, low thresholds)
-✔ Smart response selection based on similarity score
+✓ Connected chatbot responses with conversation dataset
 
-✔ Machine Learning model integrated for intent classification
-✔ Pre-trained model (intent_model.pkl and vectorizer.pkl) connected
+✓ Improved natural conversation flow
 
-✔ Hybrid chatbot system developed (Memory + Recommendation + ML model)
-✔ Fallback mechanism added when no strong match is found
+✓ Added fallback response handling
 
-✔ Special case handling implemented (issue, help, refund + delay cases)
-✔ Stop/exit/bye input handling added for graceful conversation ending
+✓ Tested chatbot conversational behavior
 
-✔ Typing animation (“Bot is typing…”) implemented
-✔ Suggestion buttons (Track Order, Refund, Delivery Issue) added
-
-✔ Chatbot improved with faster, smarter, and context-aware responses
-✔ System learns from previous interactions and improves over time
-
-✔ End-to-end intelligent chatbot successfully working
+Next: Emotion detection integration (Week 6)

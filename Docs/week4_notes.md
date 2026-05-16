@@ -1,23 +1,20 @@
-**Week 4 — Chatbot UI & Integration**
+**Week 4 – Intent Detection System**
 
-✔ Streamlit installed and configured  
-✔ Frontend UI created using app.py  
-✔ Backend ML model connected with frontend  
-✔ User input integrated with prediction system  
-✔ Chatbot responses displayed in browser  
+✓ Developed intent detection engine
 
-✔ Chat history implemented using session state  
-✔ Clear chat functionality added  
-✔ Loading (typing) effect implemented  
-✔ Smart handling for vague inputs (issue, problem)  
-✔ Combined query handling added (delay + refund)  
+✓ Implemented:
+- TF-IDF vectorization
+- Logistic Regression model
 
-✔ Chat bubble UI implemented for better experience  
-✔ Timestamp added for messages  
-✔ Placeholder input and clean layout added  
-✔ Footer and basic styling added  
+✓ Trained chatbot on intent dataset
 
-✔ System tested with multiple user queries  
-✔ End-to-end chatbot (UI + ML model) successfully working  
+✓ Tested customer intent prediction
 
-Next: Finalization, testing, and deployment (Week 5)
+✓ Added support for:
+- order_status
+- refund_request
+- payment_issue
+- greeting
+- goodbye
+
+Next: Response generation system (Week 5)

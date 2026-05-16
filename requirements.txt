@@ -1,7 +1,11 @@
-fastapi
-uvicorn
 streamlit
-scikit-learn
 pandas
 numpy
+scikit-learn
+nltk
+textblob
+speechrecognition
+pyttsx3
+requests
 matplotlib
+plotly

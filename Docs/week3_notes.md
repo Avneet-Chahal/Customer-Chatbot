@@ -1,18 +1,17 @@
-**Week 3 — NLP & Intent Classification**
+**Week 3 – NLP Preprocessing**
 
-✔ Text preprocessing implemented (lowercase, cleaning)
-✔ TF-IDF vectorization applied on dataset
-✔ Logistic Regression model trained
-✔ Train-test split performed (80-20)
-✔ Model evaluation done (accuracy + classification report)
-✔ Model and vectorizer saved (.pkl files)
+✓ Implemented text preprocessing pipeline
 
-✔ Intent prediction function created
-✔ Confidence score added for predictions
-✔ Chatbot loop implemented (user input → response)
+✓ Added:
+- Lowercasing
+- Stopword removal
+- Special character cleaning
 
-✔ Fallback handling added for low confidence
-✔ Generic input handling added (issue, problem, help)
-✔ Response logic improved for better user experience
+✓ Used NLTK for preprocessing support
 
-Next: Chatbot UI & frontend integration (Week 4)
+✓ Built preprocessing module:
+- preprocessing.py
+
+✓ Tested cleaned text outputs
+
+Next: Intent detection module (Week 4)
