@@ -250,13 +250,26 @@ This service is terrible
 
 # 📷 Project Screenshot
 
-Add project screenshot here:
+```
+<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/380574b6-604f-4e88-9163-2bd8c57b80f7" />
+<img width="1917" height="973" alt="image" src="https://github.com/user-attachments/assets/ae9641a0-7412-45d7-8194-a128e0bd3280" />
+<img width="1918" height="963" alt="image" src="https://github.com/user-attachments/assets/0f32a811-509e-469e-902c-d03c7b3021ca" />
+<img width="1918" height="965" alt="image" src="https://github.com/user-attachments/assets/deb635ae-654e-4938-83b1-0d3a5afcf5ea" />
 
-```text
-screenshot.png
+
+
+
 ```
 
+## 🚀 Live Deployment
+
+You can access the deployed Customer Support Chatbot here:
+
+🔗 [Live Demo](https://customer-chatbot-1-zug4.onrender.com/)
+
 ---
+
+
 
 # 📚 Learning Outcomes
 
